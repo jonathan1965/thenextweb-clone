@@ -3,3 +3,48 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+body {
+  background-color: #f7f8f8;
+}
+
+.nav_menu {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px;
+}
+
+.logo_tnw {
+  max-width: 80px;
+}
+
+.nav_list {
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+  align-items: center;
+  padding-right: 80px;
+}
+
+.nav_list li {
+  list-style: none;
+  font-size: 14px;
+}
+
+.nav_menuSub {
+  height: 40px;
+  background-color: #F3D331;
+  display: flex;
+}
+
+.nav_menuSub p {
+  position: relative;
+  top: 10px;
+  left: 12px;
+}
+
+@media (max-width: 800px) {
+  .nav_list li {
+    display: none;
+  }
+}

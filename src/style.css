@@ -8,6 +8,10 @@ body {
   background-color: #f7f8f8;
 }
 
+head {
+  position: fixed;
+}
+
 .nav_menu {
   display: flex;
   justify-content: space-between;
@@ -33,7 +37,8 @@ body {
 
 .nav_menuSub {
   height: 40px;
-  background-color: #F3D331;
+  background-color:#f3d331;
+  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.144);
   display: flex;
 }
 
@@ -43,6 +48,9 @@ body {
   left: 12px;
 }
 
+.slogan
+
+/* Bomo */
 @media (max-width: 800px) {
   .nav_list li {
     display: none;
